@@ -1,0 +1,119 @@
+html, body {
+    width: 97%;
+    height: 92%;
+    background: #c4afa2;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+h1 {
+    font-size: 2em;
+    text-align: left;
+    margin: 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* *{
+    outline: 1px dotted black;
+} */
+.root {
+    margin: auto;
+}
+input {
+    width: 70%;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    font-style: italic;
+}
+button {
+    font-size: 15px;
+    height: 42px;
+    padding: 10px;
+    color: white;
+    background: rgb(49, 138, 255);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover {
+    font-size: 15px;
+    height: 42px;
+    padding: 10px;
+    color: white;
+    background: rgb(110, 47, 17);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.App {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 532px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #b09e92, #d2bbad);
+    box-shadow:  20px 20px 60px #a7958a, 
+                 -20px -20px 60px #e1c9ba;
+}
+
+h1 {
+    padding: 20px;
+    fo
+}
+
+/* li {
+    margin-top: 10px;
+    list-style: none;
+    padding: 15px;
+    background: #D4837A;
+    font-size: 20px;
+} */
+.list {
+    cursor: pointer;
+}
+
+.list:nth-child(odd) {
+    margin-top: 10px;
+    list-style: none;
+    padding: 15px;
+    background: rgb(158, 149, 141);
+    font-size: 20px;
+    transition: 0.1s;
+    border-radius: 50px;
+    
+}
+
+.list:nth-child(odd):hover {
+    margin-top: 10px;
+    list-style: none;
+    padding: 15px;
+    background: rgb(95, 82, 79);
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+.list:nth-child(even) {
+    margin-top: 10px;
+    list-style: none;
+    padding: 15px;
+    background: rgb(136, 131, 126);
+    font-size: 20px;
+    transition: 0.1s;
+    border-radius: 50px;
+}
+
+.list:nth-child(even):hover {
+    margin-top: 10px;
+    list-style: none;
+    padding: 15px;
+    background: rgb(95, 82, 79);
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+ul {
+    padding-left: 0px;
+    margin: 0px;
+}
